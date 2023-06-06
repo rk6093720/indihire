@@ -32,17 +32,15 @@
      
      <div class="swiper-container">
         <div class="swiper-wrapper">
-          <!-- Slides go here -->
-          <!-- <div class="swiper-slide">Slide 1</div>
-          <div class="swiper-slide">Slide 2</div>
-          <div class="swiper-slide">Slide 3</div> -->
+              <img [src]="image[currentIndex]" alt="currentImages">
+             
         </div>
         <div class="swiper-button">
-        <div class="swiper-prev">
-           < 
+        <div class="swiper-prev" >
+           <button (click)="increaseIndex()"><</button>
         </div>
         <div class="swiper-next">
-           >
+           <button (click)="decreaseIndex()">></button>
         </div>
       </div>
       
