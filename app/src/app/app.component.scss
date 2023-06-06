@@ -39,7 +39,8 @@
     justify-content: space-between;
     .left-container{
         width:50%;
-        // border: 1px solid red;
+        height: 100%;
+        border: 1px solid blue;
         h1{
             margin-top: 120px;
             margin-left: 30px;
@@ -47,8 +48,8 @@
         }
         .image-left{
             display: flex;
-            width: 100%;
-            height: 80%;
+            width: 90%;
+            height:100%;
             background-image: url("../assets/third-row-left.jpg");
             background-size: 100% 280px;
             background-position-x: left;
@@ -67,43 +68,19 @@
         }
     }
     .right-container{
-        width: 48%;
-        // border: 1px solid blue;
-        .image-right{
-
-            img{
-                margin-left: 150px;
-            }
-            
-        }
-        .swiper-container {
-            width: 100%;
-            height: 400px;
-          }
-          
-          .swiper-button-prev,
-          .swiper-button-next {
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            width: 40px;
-            height: 40px;
-            background-color: #f0f0f0;
-            color: #333;
-            border-radius: 50%;
-            font-size: 24px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-          }
-          
-          .swiper-button-prev {
-            left: 10px;
-          }
-          
-          .swiper-button-next {
-            right: 10px;
-          }
-          
+        width: 50%;
+        height: 100%;
+        border: 1px solid red;
+       .swiper-container{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        background-image: url("../assets/third-row-right.jpg");
+        background-size: 100% 850px;
+        background-position-x: right;
+        background-repeat: no-repeat;
+       }
+        
+     
     }
 }
